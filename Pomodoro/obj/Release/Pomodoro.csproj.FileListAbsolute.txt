@@ -1,0 +1,13 @@
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\bin\Release\Pomodoro.exe.config
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\bin\Release\Pomodoro.exe
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\bin\Release\Pomodoro.pdb
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.csprojResolveAssemblyReference.cache
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\MainWindow.baml
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\MainWindow.g.cs
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\App.g.cs
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro_MarkupCompile.cache
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.g.resources
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.Properties.Resources.resources
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.csproj.GenerateResource.Cache
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.exe
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.pdb

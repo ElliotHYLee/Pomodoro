@@ -11,11 +11,11 @@ namespace Pomodoro
     class Stat
     {
         private ExIO myFile;
-        private string year;
-        private string month;
-        private string date;
-        private string day;
-        private int time;
+        private string _year;
+        private string _month;
+        private string _date;
+        private string _dayOfWeek;
+        private int _time;
         private bool saveStatus;
 
         public Stat()
@@ -23,17 +23,44 @@ namespace Pomodoro
             saveStatus = false;
             string rawDate = DateTime.Now.ToString("MM/dd/yyyy");
             Console.WriteLine(rawDate);
-            month = rawDate.Substring(0, 2);
-            Console.WriteLine(month);
-            date = rawDate.Substring(3, 2);
-            Console.WriteLine(date);
-            year = rawDate.Substring(6, 4);
-            Console.WriteLine(year);
+            _month = rawDate.Substring(0, 2);
+            Console.WriteLine(_month);
+            _date = rawDate.Substring(3, 2);
+            Console.WriteLine(_date);
+            _year = rawDate.Substring(6, 4);
+            Console.WriteLine(_year);
+
+            DateTime dateValue = DateTime.Now;
+            _dayOfWeek = dateValue.DayOfWeek.ToString();
+
+
+        }
+
+        public string year
+        {
+            get { return this._year; }
+        }
+        public string mongth
+        {
+            get { return this._month; }
+        }
+        public string date
+        {
+            get { return this._date; }
+        }
+
+        public string dayOfWeek
+        {
+            get { return this._dayOfWeek; }
+        }
+
+        public int time{
+            get { return this._time; }
         }
 
         public void increase()
         {
-            this.time++;
+            this._time++;
         }
 
         public bool isSaved()
@@ -43,7 +70,7 @@ namespace Pomodoro
 
         public void save()
         {
-            if (time == 0)
+            if (_time == 0)
             {
                 MessageBox.Show("error");
             }

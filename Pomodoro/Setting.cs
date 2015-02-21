@@ -11,12 +11,18 @@ namespace Pomodoro
         private int _roundingTime;
         private int _breakTime;
         private int _sessionBreakTime;
-        
+        private int _sessionLength;
+
         public Setting()
         {
+            this._sessionLength = 3;
             this._roundingTime = 25*60;
             _breakTime = 5*60;
-            _sessionBreakTime = 15*60;
+            _sessionBreakTime = 15*60 ;
+        }
+        public int sessionLength
+        {
+            get { return this._sessionLength; }
         }
 
         public int roundingTime
