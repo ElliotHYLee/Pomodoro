@@ -12,3 +12,5 @@ C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\Pomodoro.exe
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\bin\Debug\Pomodoro.pdb
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\Pomodoro.exe
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\Pomodoro.pdb
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\StatWindow.baml
+C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\StatWindow.g.cs

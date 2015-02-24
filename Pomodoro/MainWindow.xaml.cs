@@ -140,9 +140,6 @@ namespace Pomodoro
             txtTimer.Text = hour.ToString() + ":" + minute.ToString() + ":" + second.ToString();
         }
 
-
-
-
         private void btnStart_Click(object sender, RoutedEventArgs e)
         {
             Timer.Start();
@@ -151,6 +148,12 @@ namespace Pomodoro
             this.btnStart.IsEnabled = false;
             this.btnStop.IsEnabled = true;
             targetTime = time;
+           
+            if (isWorkingTime)
+            {
+                this.txtCurrentQuater.Text = (quater + 1).ToString();
+            }
+            
         }
 
         private void Timer_Tick(object sender, EventArgs e)
@@ -245,6 +248,9 @@ namespace Pomodoro
                 this.time = currentSetting.roundingTime;
                 //Console.WriteLine("setting time: " + this.time);
             }
+
+            
+            
            
         }
 

@@ -1,7 +1,7 @@
 ﻿Pomodoro
 
 
-exe
+winexe
 C#
 .cs
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Debug\
@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\App.xaml
-11151548125
+2-1399683712
 
-9877124642
+10-96881400
 12-1401562060
-MainWindow.xaml;
+MainWindow.xaml;StatWindow.xaml;
 
 False
 
