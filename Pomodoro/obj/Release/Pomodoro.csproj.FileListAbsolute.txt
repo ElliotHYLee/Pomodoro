@@ -13,3 +13,6 @@ C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.exe
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.pdb
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\StatWindow.baml
 C:\Users\Elliot\Documents\GitHub\Pomodoro\Pomodoro\obj\Release\StatWindow.g.cs
+D:\GitHub\Pomodoro\Pomodoro\bin\Release\Pomodoro.exe.config
+D:\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.exe
+D:\GitHub\Pomodoro\Pomodoro\obj\Release\Pomodoro.pdb
